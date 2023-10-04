@@ -27,9 +27,10 @@
 
 # Descrição do projeto
 
-*&lt;Introdução do projeto&gt;*
+Este projeto visa criar um sistema de gerenciamento de entrega de pizza para a Pizza-Express, uma cadeia de 40 lojas de fast-food e entrega em casa. Esse sistema busca otimizar o processo de preparo e entrega no prazo de 15 minutos, tornando-o mais eficiente e permitindo que a Pizza-Express compita melhor no mercado de entrega de pizzas, com o objetivo de reduzir o tempo de entrega e melhorar a satisfação do cliente.
 
 # Análise de requisitos funcionais e não-funcionais
+
 *Requisitos funcionais do sistema:
 - O sistema deve ser capaz de registrar os pedidos de pizza dos clientes e seus cancelamentos.
 - O sistema deve ser capaz de registrar a localização do cliente.
@@ -54,10 +55,10 @@
 # Diagrama de casos de uso
 
 *Atores:
-Cliente: Representa os clientes que interagem com o sistema para fazer pedidos e acompanhar o status das entregas.
-Funcionário da loja de pizza Pizza-Express: Representa os funcionários responsáveis por preparar os pedidos e verificam o estoque de ingredientes.
-Central: Representa os gerentes da Pizza-Express que  têm acesso aos relatórios de desempenho.
-Entregador: Representa os entregadores responsáveis por retirar os pedidos nas lojas e entregar os pedidos aos clientes.
+- Cliente: Representa os clientes que interagem com o sistema para fazer pedidos e acompanhar o status das entregas.
+- Funcionário da loja de pizza Pizza-Express: Representa os funcionários responsáveis por preparar os pedidos e verificam o estoque de ingredientes.
+- Central: Representa os gerentes da Pizza-Express que  têm acesso aos relatórios de desempenho.
+- Entregador: Representa os entregadores responsáveis por retirar os pedidos nas lojas e entregar os pedidos aos clientes.
 
 *Casos de Uso:
 - Fazer Pedido (Cliente):
@@ -117,48 +118,48 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Descrição dos casos de uso
 *Especificação de caso de uso:
-Identificador:UC001
-Nome: Sistema Fast Delivery Tech
-Atores: Cliente, Funcionário, Central, Entregador
-Sumário: O sistema permite que o cliente faça pedidos de pizza e acompanhe seu pedido, que a central busque a loja mais próxima ao cliente, calcule o tempo de entrega, gerencie o estoque e gere relatórios, os funcionários das lojas de pizzas preparem o pedido e que os entregadores realizem as entregas.
+- Identificador:UC001
+- Nome: Sistema Fast Delivery Tech
+- Atores: Cliente, Funcionário, Central, Entregador
+- Sumário: O sistema permite que o cliente faça pedidos de pizza e acompanhe seu pedido, que a central busque a loja mais próxima ao cliente, calcule o tempo de entrega, gerencie o estoque e gere relatórios, os - funcionários das lojas de pizzas preparem o pedido e que os entregadores realizem as entregas.
 
 *Fluxo Principal:
-1.O cliente inicia o processo de pedido selecionando a opção "Fazer Pedido".
-2.O sistema exibe um menu de pizzas disponíveis.
-3.O cliente seleciona as opções desejadas, incluindo tipo de pizza, tamanho e ingredientes extras.
-4.O cliente insere o endereço de entrega.
-5. O sistema calcula o tempo estimado de entrega com base na localização do cliente e da loja de pizza mais próxima.
-6.O pedido é registrado no sistema.
-7.O sistema encaminha o pedido para a loja de pizza mais próxima.
-8.O funcionário da loja recebe o pedido e prepara a pizza de acordo com as especificações.
-9.O funcionário atualiza o status do pedido no sistema à medida que avança no processo de preparação.
-10.Quando o pedido estiver pronto, o sistema encaminha o pedido ao entregador.
-11.O entregador recebe o pedido pronto na loja.
-12.O entregador verifica o endereço de entrega no pedido e parte para a entrega.
-13.O entregador entrega o pedido ao cliente e atualiza o status do pedido como entregue.
-14.A central gera relatórios de desempenho do sistema para monitorar o tempo médio de preparação, número de pedidos atendidos e outros indicadores relevantes.
+- 1.O cliente inicia o processo de pedido selecionando a opção "Fazer Pedido".
+- 2.O sistema exibe um menu de pizzas disponíveis.
+- 3.O cliente seleciona as opções desejadas, incluindo tipo de pizza, tamanho e ingredientes extras.
+- 4.O cliente insere o endereço de entrega.
+- 5. O sistema calcula o tempo estimado de entrega com base na localização do cliente e da loja de pizza mais próxima.
+- 6.O pedido é registrado no sistema.
+- 7.O sistema encaminha o pedido para a loja de pizza mais próxima.
+- 8.O funcionário da loja recebe o pedido e prepara a pizza de acordo com as especificações.
+- 9.O funcionário atualiza o status do pedido no sistema à medida que avança no processo de preparação.
+- 10.Quando o pedido estiver pronto, o sistema encaminha o pedido ao entregador.
+- 11.O entregador recebe o pedido pronto na loja.
+- 12.O entregador verifica o endereço de entrega no pedido e parte para a entrega.
+- 13.O entregador entrega o pedido ao cliente e atualiza o status do pedido como entregue.
+- 14.A central gera relatórios de desempenho do sistema para monitorar o tempo médio de preparação, número de pedidos atendidos e outros indicadores relevantes.
 
 *Fluxo Alternativo 1: Cliente cancela o pedido
-3.1.1 O cliente seleciona a opção "Cancelar Pedido".
-3.1.2 O sistema cancela o pedido do cliente, suspendendo as operações relacionadas a ele.
+- 3.1.1 O cliente seleciona a opção "Cancelar Pedido".
+- 3.1.2 O sistema cancela o pedido do cliente, suspendendo as operações relacionadas a ele.
 
 # Diagrama de sequencia
 
-Cliente --> Sistema: Iniciar Pedido
-Sistema --> Cliente: Exibir Menu
-Cliente --> Sistema: Selecionar Opções
-Cliente --> Sistema: Inserir Endereço
-Sistema --> Cliente: Calcular Tempo Estimado
-Cliente --> Sistema: Registrar Pedido
-Sistema --> Loja de Pizza: Encaminhar Pedido
-Loja de Pizza --> Funcionário da Loja: Receber Pedido
-Funcionário da Loja --> Funcionário da Loja: Preparar Pizza
-Funcionário da Loja --> Sistema: Notificar Preparação
-Funcionário da Loja --> Sistema: Notificar Pedido Finalizado
-Loja de Pizza --> Entregador: Retirar Pedido
-Sistema --> Entregador: Verificar Endereço de Entrega
-Entregador --> Cliente: Entregar Pedido
-Entregador --> Sistema: Atualizar Status do Pedido
+- Cliente --> Sistema: Iniciar Pedido
+- Sistema --> Cliente: Exibir Menu
+- Cliente --> Sistema: Selecionar Opções
+- Cliente --> Sistema: Inserir Endereço
+- Sistema --> Cliente: Calcular Tempo Estimado
+- Cliente --> Sistema: Registrar Pedido
+- Sistema --> Loja de Pizza: Encaminhar Pedido
+- Loja de Pizza --> Funcionário da Loja: Receber Pedido
+- Funcionário da Loja --> Funcionário da Loja: Preparar Pizza
+- Funcionário da Loja --> Sistema: Notificar Preparação
+- Funcionário da Loja --> Sistema: Notificar Pedido Finalizado
+- Loja de Pizza --> Entregador: Retirar Pedido
+- Sistema --> Entregador: Verificar Endereço de Entrega
+- Entregador --> Cliente: Entregar Pedido
+- Entregador --> Sistema: Atualizar Status do Pedido
 
 # Diagrama de classes
 
