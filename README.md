@@ -11,7 +11,7 @@ Este projeto visa criar um sistema de gerenciamento de entrega de pizza para a P
 
 # Documentação
 
-https://joomendes.github.io/UML-Classroom-FCI/
+https://joomendes.github.io/UML-Engenharia-software/
 
 # Releases
 
