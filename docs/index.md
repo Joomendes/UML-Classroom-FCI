@@ -128,7 +128,7 @@ Associações: Entregador -> Direções de Entrega de Pedido
 - 2.O sistema exibe um menu de pizzas disponíveis.
 - 3.O cliente seleciona as opções desejadas, incluindo tipo de pizza, tamanho e ingredientes extras.
 - 4.O cliente insere o endereço de entrega.
-- 5. O sistema calcula o tempo estimado de entrega com base na localização do cliente e da loja de pizza mais próxima.
+- 5.O sistema calcula o tempo estimado de entrega com base na localização do cliente e da loja de pizza mais próxima.
 - 6.O pedido é registrado no sistema.
 - 7.O sistema encaminha o pedido para a loja de pizza mais próxima.
 - 8.O funcionário da loja recebe o pedido e prepara a pizza de acordo com as especificações.
