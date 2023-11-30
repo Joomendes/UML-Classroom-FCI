@@ -174,15 +174,15 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Diagrama de Componentes
 
-[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacomponentes.png" alt="Diagrama de casos de uso" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacomponentes.png?raw=true)
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacomponentes.png" alt="Diagrama de Componentes" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacomponentes.png?raw=true)
 
-# Decisões de arquitetura
+# Decisões de Arquitetura
 
-[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png" alt="Diagrama de casos de uso" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png?raw=true)
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png" alt="Diagrama de Arquitetura" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png?raw=true)
 
-# Diagrama de implantação
+# Diagrama de Implantação
 
-[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaimplementacao.png" alt="Diagrama de casos de uso" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaimplementacao.png?raw=true)
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaimplantacao.png" alt="Diagrama de Implantação" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaimplantacao.png?raw=true)
 
 # Referências
 
