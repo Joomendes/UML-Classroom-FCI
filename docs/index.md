@@ -187,4 +187,9 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Referências
 
-*&lt;Lista de referências&gt;*
+<ul>
+  <li>Todo o material disponibilizado pelo professor Rodrigo Silva na plataforma educacional Moodle</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml; Acessado em 20 de set. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml; acessado em 14 de out. de 2023</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 12 de nov. de 2023</li>
+</ul>
