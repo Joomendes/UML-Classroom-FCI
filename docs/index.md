@@ -55,6 +55,8 @@ Este projeto visa criar um sistema de gerenciamento de entrega de pizza para a P
 # Diagrama de casos de uso
 
 
+<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacasosdeuso.png" alt="Diagrama de casos de uso" width=800px>
+
 *Atores:
 - Cliente: Representa os clientes que interagem com o sistema para fazer pedidos e acompanhar o status das entregas.
 - Funcionário da loja de pizza Pizza-Express: Representa os funcionários responsáveis por preparar os pedidos e verificam o estoque de ingredientes.
