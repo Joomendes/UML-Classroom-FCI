@@ -15,4 +15,4 @@ https://joomendes.github.io/UML-Engenharia-software/
 
 # Releases
 
-1.0
+2.0
