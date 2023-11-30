@@ -120,13 +120,18 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 
 # Descrição dos casos de uso
+
 *Especificação de caso de uso:
+https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png?raw=true
+
 - Identificador:UC001
 - Nome: Sistema Fast Delivery Tech
 - Atores: Cliente, Funcionário, Central, Entregador
 - Sumário: O sistema permite que o cliente faça pedidos de pizza e acompanhe seu pedido, que a central busque a loja mais próxima ao cliente, calcule o tempo de entrega, gerencie o estoque e gere relatórios, os - funcionários das lojas de pizzas preparem o pedido e que os entregadores realizem as entregas.
 
 *Fluxo Principal:
+https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso2.png?raw=true
+
 - 1.O cliente inicia o processo de pedido selecionando a opção "Fazer Pedido".
 - 2.O sistema exibe um menu de pizzas disponíveis.
 - 3.O cliente seleciona as opções desejadas, incluindo tipo de pizza, tamanho e ingredientes extras.
@@ -143,6 +148,8 @@ Associações: Entregador -> Direções de Entrega de Pedido
 - 14.A central gera relatórios de desempenho do sistema para monitorar o tempo médio de preparação, número de pedidos atendidos e outros indicadores relevantes.
 
 *Fluxo Alternativo 1: Cliente cancela o pedido
+https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png?raw=true
+
 - 3.1.1 O cliente seleciona a opção "Cancelar Pedido".
 - 3.1.2 O sistema cancela o pedido do cliente, suspendendo as operações relacionadas a ele.
 
