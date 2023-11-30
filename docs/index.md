@@ -152,21 +152,7 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Diagrama de sequencia
 
-- Cliente --> Sistema: Iniciar Pedido
-- Sistema --> Cliente: Exibir Menu
-- Cliente --> Sistema: Selecionar Opções
-- Cliente --> Sistema: Inserir Endereço
-- Sistema --> Cliente: Calcular Tempo Estimado
-- Cliente --> Sistema: Registrar Pedido
-- Sistema --> Loja de Pizza: Encaminhar Pedido
-- Loja de Pizza --> Funcionário da Loja: Receber Pedido
-- Funcionário da Loja --> Funcionário da Loja: Preparar Pizza
-- Funcionário da Loja --> Sistema: Notificar Preparação
-- Funcionário da Loja --> Sistema: Notificar Pedido Finalizado
-- Loja de Pizza --> Entregador: Retirar Pedido
-- Sistema --> Entregador: Verificar Endereço de Entrega
-- Entregador --> Cliente: Entregar Pedido
-- Entregador --> Sistema: Atualizar Status do Pedido
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramasequencia.png" alt="Diagrama de Sequência" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramasequencia.png?raw=true)
 
 # Diagrama de classes
 
@@ -178,7 +164,16 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Decisões de Arquitetura
 
-[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/decisaoarquitetura.png" alt="Decisões de Arquitetura" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/decisaoarquitetura.png?raw=true)
+<h3>Diagrama de Casos de Uso:</h3>
+O Diagrama de Casos de Uso representa as interações entre os atores e o sistema, sendo que os atores essenciais são os clientes, os funcionários da loja, os entregadores e a central de pedidos. Os casos de uso identificados incluem "Fazer Pedido", "Cancelar Pedido", "Acompanhar Pedido", "Calcular Tempo de Entrega", "Acompanhar Pedido", "Calcular Tempo de Preparo", "Direções de Entrega de Pedido", "Relatórios de Desempenho das Lojas" e "Preparar Pedido". Tais atores e casos identificados representam como a Fast Delivery Tech enxerga a interação entre usuários e o sistema, abrangendo todas as funcionalidades essenciais para um serviço de entrega de pizza dentro do âmbito dos 15 minutos prometidos. 
+<h3>Diagrama de Sequência:</h3>
+O Diagrama de Sequência descreve a interação entre objetos ao longo do tempo. Para o sistema de pedidos de pizza, foram identificadas sequências como o processo de registro de pedidos, preparação de pizza, entrega e geração de relatórios de desempenho. A decisão é de priorizar a eficiência e aclareza nas interações entre os atores, considerando que o tempo de 15 minutos é o fator chave do projeto, garantindo que o sistema da Fast Delivery respondesse de maneira eficaz às ações dos usuários.
+<h3>Diagramas de Classes:</h3>
+As classes modeladas para o sistema foram "Pedido", "Cliente", "MenuPizza", "Loja", "Funcionário", "Entregador", "Central" e "Relatório". Cada classe modelada desempenha um papel no funcionamento do sistema da Fast Delivery Tech, de forma que o objetivo principal de 15 minutos seja alcançado.
+<h3>Diagrama de Componentes:</h3>
+O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Cliente Interface", "Sistema", "LojaComponent", "Entregador Component" e "Central Component". Além disso, medidas de segurança, como a incorporação do framework Django e Flask-Security, foram implementadas para proteger contra ataques.
+<h3>Diagrama de Implantação:</h3>
+O Diagrama de Implantação descreve como o sistema será implantado em hardware físico. A decisão foi tomada para garantir que o sistema seja acessível a partir de qualquer navegador web, incluindo em dispositivos móveis. A arquitetura adotada suporta essa acessibilidade, enquanto medidas de segurança, como criptografia, são implementadas para proteger a integridade dos dados sensíveis dos clientes, dos funcionários, dos entregadores e das lojas. Para garantir a segurança na manipulação de dados e interações com o banco de dados SQL, a decisão foi utilizar a biblioteca SQLAlchemy, que oferece uma camada de abstração de alto nível e recursos integrados para prevenir vulnerabilidades, como injeção de SQL, por meio da adoção de práticas recomendadas e parâmetros seguros em consultas SQL. Além disso, boas práticas de segurança web, como a proteção contra ataques XSS (Cross-Site Scripting), foram incorporadas ao sistema. Isso envolve a implementação de validação rigorosa de entrada de dados, a utilização de sanitizadores para prevenir a execução de scripts maliciosos inseridos pelos usuários, e a adoção de headers HTTP apropriados, como Content Security Policy (CSP), para mitigar os riscos associados a scripts não autorizados.
 
 # Diagrama de Implantação
 
@@ -188,11 +183,12 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 <ul>
   <li>Todo o material disponibilizado pelo professor Rodrigo Silva na plataforma educacional Moodle.</li>
-  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml; Acessado em 20 de set. de 2023.</li>
-  <li>https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams; Acessado em 20 de set. de 2023.</li>
-  <li>https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagrama-de-componentes/; acessado em 16 de out. de 2023.</li>
-  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml; acessado em 17 de out. de 2023.</li>
-  <li>https://www.lucidchart.com/blog/pt/como-fazer-diagramas-de-arquitetura-de-sistema/; acessado em 1 de nov. de 2023.</li>
-  <lil>https://ldfgrupo.pt/blog/diagrama-de-arquitetura-de-software-uml/; acessado em 1 de nov. de 2023.</lil>
-  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 12 de nov. de 2023.</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml; Acessado em 31 de outubro de 2023.</li>
+  <li>https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams; Acessado em 31 de outubro de 2023.</li>
+  <li>https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagrama-de-componentes/; acessado em 6 de novembro de 2023.</li>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml; acessado em 6 de novembro de 2023.</li>
+  <li>https://www.youtube.com/watch?v=uivUGTgJlGA; acessado em 6 de novembro de 2023
+  <li>https://www.lucidchart.com/blog/pt/como-fazer-diagramas-de-arquitetura-de-sistema/; acessado em 11 de novembro de 2023.</li>
+  <lil>https://ldfgrupo.pt/blog/diagrama-de-arquitetura-de-software-uml/; acessado em 11 de novembro de 2023.</lil>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 17 de novembro de 2023.</li>
 </ul>
