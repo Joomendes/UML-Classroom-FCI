@@ -178,7 +178,7 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Decisões de Arquitetura
 
-[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png" alt="Diagrama de Arquitetura" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramacaarquitetura.png?raw=true)
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/decisaoarquitetura.png" alt="Decisões de Arquitetura" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/decisaoarquitetura.png?raw=true)
 
 # Diagrama de Implantação
 
@@ -187,12 +187,12 @@ Associações: Entregador -> Direções de Entrega de Pedido
 # Referências
 
 <ul>
-  <li>Todo o material disponibilizado pelo professor Rodrigo Silva na plataforma educacional Moodle</li>
-  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml; Acessado em 20 de set. de 2023</li>
-  <li>https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams; Acessado em 20 de set. de 2023</li>
-  <li>https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagrama-de-componentes/; acessado em 16 de out. de 2023</li>
-  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml; acessado em 17 de out. de 2023</li>
-  <li>https://www.lucidchart.com/blog/pt/como-fazer-diagramas-de-arquitetura-de-sistema/; acessado em 1 de nov. de 2023</li>
-  <lil>https://ldfgrupo.pt/blog/diagrama-de-arquitetura-de-software-uml/; acessado em 1 de nov. de 2023</lil>
-  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 12 de nov. de 2023</li>
+  <li>Todo o material disponibilizado pelo professor Rodrigo Silva na plataforma educacional Moodle.</li>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-classe-uml; Acessado em 20 de set. de 2023.</li>
+  <li>https://www.ibm.com/docs/pt-br/rsas/7.5.0?topic=structure-class-diagrams; Acessado em 20 de set. de 2023.</li>
+  <li>https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/diagrama-de-componentes/; acessado em 16 de out. de 2023.</li>
+  <li>https://www.lucidchart.com/pages/pt/diagrama-de-componentes-uml; acessado em 17 de out. de 2023.</li>
+  <li>https://www.lucidchart.com/blog/pt/como-fazer-diagramas-de-arquitetura-de-sistema/; acessado em 1 de nov. de 2023.</li>
+  <lil>https://ldfgrupo.pt/blog/diagrama-de-arquitetura-de-software-uml/; acessado em 1 de nov. de 2023.</lil>
+  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 12 de nov. de 2023.</li>
 </ul>
