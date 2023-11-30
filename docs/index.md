@@ -14,12 +14,11 @@
 - [Diagrama de casos de uso](#diagrama-de-comportamento-atores)
 - [Descrição dos casos de uso](#descrição-das-funcões)
 - [Diagrama de sequencia](#diagrama-de-ordem-interações) 
-- [Diagrama de classes](#diagrama-orientado-objetos) (a fazer)
-- [Diagrama de componentes](#diagrama-estrutura-componente) (a fazer)
-- [Decisões de arquitetura](#decisões-de-arquitetura) (a fazer) 
-- [Diagrama de implantação](#diagrama-de-hardware-software) (a fazer)
-- [Referências](#referências) (a fazer)
-
+- [Diagrama de classes](#diagrama-orientado-objetos) 
+- [Diagrama de componentes](#diagrama-estrutura-componente) 
+- [Decisões de arquitetura](#decisões-de-arquitetura) 
+- [Diagrama de implantação](#diagrama-de-hardware-software) 
+- [Referências](#referências) 
 
 # Autores
 
