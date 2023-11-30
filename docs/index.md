@@ -121,16 +121,14 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Descrição dos casos de uso
 
-*Especificação de caso de uso:
-https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png?raw=true
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso1.png" alt="Especificação de caso de uso:" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso1.png?raw=true)
 
 - Identificador:UC001
 - Nome: Sistema Fast Delivery Tech
 - Atores: Cliente, Funcionário, Central, Entregador
 - Sumário: O sistema permite que o cliente faça pedidos de pizza e acompanhe seu pedido, que a central busque a loja mais próxima ao cliente, calcule o tempo de entrega, gerencie o estoque e gere relatórios, os - funcionários das lojas de pizzas preparem o pedido e que os entregadores realizem as entregas.
 
-*Fluxo Principal:
-https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso2.png?raw=true
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso2.png" alt="Fluxo Principal:" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso2.png?raw=true)
 
 - 1.O cliente inicia o processo de pedido selecionando a opção "Fazer Pedido".
 - 2.O sistema exibe um menu de pizzas disponíveis.
@@ -147,8 +145,8 @@ https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso
 - 13.O entregador entrega o pedido ao cliente e atualiza o status do pedido como entregue.
 - 14.A central gera relatórios de desempenho do sistema para monitorar o tempo médio de preparação, número de pedidos atendidos e outros indicadores relevantes.
 
-*Fluxo Alternativo 1: Cliente cancela o pedido
-https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png?raw=true
+
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png" alt="Fluxo Alternativo 1: Cliente cancela o pedido:" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/casodeuso3.png?raw=true)
 
 - 3.1.1 O cliente seleciona a opção "Cancelar Pedido".
 - 3.1.2 O sistema cancela o pedido do cliente, suspendendo as operações relacionadas a ele.
