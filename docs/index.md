@@ -22,7 +22,7 @@
 
 # Autores
 
-* João Pedro Lopes Mendes TIA:32211694 
+* João Pedro Lopes Mendes TIA: 32211694 
 
 # Descrição do projeto
 
@@ -170,7 +170,7 @@ Associações: Entregador -> Direções de Entrega de Pedido
 
 # Diagrama de classes
 
-*&lt;Diagrama de relacionamento entre classes para os seus atributos e operações&gt;*
+[<img src="https://raw.githubusercontent.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaclasses.png" alt="Diagrama de Classes" width=800px>](https://github.com/Joomendes/UML-Engenharia-software/blob/patch-1/docs/diagramaclasses.png?raw=true)
 
 # Diagrama de Componentes
 
