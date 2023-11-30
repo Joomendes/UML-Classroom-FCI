@@ -190,5 +190,7 @@ O Diagrama de Implantação descreve como o sistema será implantado em hardware
   <li>https://www.youtube.com/watch?v=uivUGTgJlGA; acessado em 6 de novembro de 2023
   <li>https://www.lucidchart.com/blog/pt/como-fazer-diagramas-de-arquitetura-de-sistema/; acessado em 11 de novembro de 2023.</li>
   <lil>https://ldfgrupo.pt/blog/diagrama-de-arquitetura-de-software-uml/; acessado em 11 de novembro de 2023.</lil>
-  <li>https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-implementacao-uml; acessado em 17 de novembro de 2023.</li>
+  <lil>https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django; acessado em 14 de novembro de 2023.</lil>
+  <lil>https://www.sqlalchemy.org/library.html; acessado em 19 de novembro de 2023.</lil>
+  <li>https://creately.com/blog/pt/diagrama/tutorial-do-diagrama-de-implantacao/; acessado em 18 de novembro de 2023.</li>
 </ul>
