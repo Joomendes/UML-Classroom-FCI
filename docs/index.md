@@ -173,8 +173,7 @@ Tais atores e casos identificados representam como a Fast Delivery Tech enxerga 
 - As classes modeladas para o sistema foram "Pedido", "Cliente", "MenuPizza", "Loja", "Funcionário", "Entregador", "Central" e "Relatório". 
 Cada classe modelada desempenha um papel no funcionamento do sistema da Fast Delivery Tech, de forma que o objetivo principal de 15 minutos seja alcançado.
 <h3>Diagrama de Componentes:</h3>
-- O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Cliente Interface", "Sistema", "LojaComponent", "Entregador Component" e "Central Component". 
-Além disso, medidas de segurança, como a incorporação do framework Django e Flask-Security, foram implementadas para proteger contra ataques.
+- O Diagrama de Componentes representa a estrutura física do sistema, identificando os principais componentes e suas interações. A decisão foi tomada para modularizar o sistema, destacando componentes como "Cliente Interface", "MenuPizza Interface", "Entregador Interface", "Módulo Cliente", "Módulo de MenuPizza", "Módulo de Pedido" e "Módulo de Loja".
 <h3>Diagrama de Implantação:</h3>
 - O Diagrama de Implantação descreve como o sistema será implantado em hardware físico. 
 A decisão foi tomada para garantir que o sistema seja acessível a partir de qualquer navegador web, incluindo em dispositivos móveis. A arquitetura adotada suporta essa acessibilidade, enquanto medidas de segurança, como criptografia, são implementadas para proteger a integridade dos dados sensíveis dos clientes, dos funcionários, dos entregadores e das lojas. 
